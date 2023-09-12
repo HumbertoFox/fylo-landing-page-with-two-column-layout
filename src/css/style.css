@@ -47,7 +47,8 @@ body main .container-access .section-access-files .img-access-files {
     width: 640px;
     height: 474px;
     flex-shrink: 0;
-    margin-top: 48px;
+    margin-top: 46px;
+    margin-bottom: 2px;
 }
 body main .container-access .section-access-files .div-access-files {
     display: flex;
