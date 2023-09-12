@@ -1,0 +1,400 @@
+:root {
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    min-height: 100vh;
+}
+body main header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px 80px 0 80px;
+}
+body main header nav ul {
+    display: flex;
+    gap: 57px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+body main .container-access {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: url(../images/bg-curve-desktop.svg) no-repeat bottom;
+}
+body main .container-access .section-access-files {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 80px 275px 80px;
+}
+body main .container-access .section-access-files .img-access-files {
+    width: 640px;
+    height: 474px;
+    flex-shrink: 0;
+    margin-top: 48px;
+}
+body main .container-access .section-access-files .div-access-files {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+body main .container-access .section-access-files .div-access-files .h1-accesse-files {
+    width: 627px;    
+    font-size: 40px;
+    color: #07043B;
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 700;
+    line-height: 60px;
+}
+body main .container-access .section-access-files .div-access-files .p-accesse-files {
+    width: 585px;
+    font-size: 17px;
+    color: #07043B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.531px;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input, body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input {
+    display: flex;
+    flex-direction: column;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"] {
+    width: 320px;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    border-radius: 3px;
+    border: 1px solid var(--Very-Dark-Blue);
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"]::placeholder {
+    color: var(--Light-Gray);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.467px;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input span {
+    display: none;
+    color: #EF4877;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    padding-top: 5px;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"]:invalid, body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"]:invalid {
+    border: .63px solid #EF4877;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"]:invalid + span{
+    display: block;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button button {
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: var(--Bright-Blue);
+    cursor: url(../images/pointer.svg), auto;
+    border-radius: 3px;
+    color: var(--Light-Grayish-Blue);
+    transition: .3s ease-in-out;
+}
+body main .container-access .section-access-files .div-access-files .div-access-files-input-button button:hover, body main .container-get-early .section-get-early .div-get-early-input-button button:hover {
+    background-color: #6C9BFF;
+}
+body main .container-produtive {
+    display: flex;
+    background-color:  #F8F8FE;
+}
+body main .container-produtive .section-produtive {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 65px 80px 108px 80px;
+}
+body main .container-produtive .section-produtive .div-produtive {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+body main .container-produtive .section-produtive .div-produtive .h1-produtive {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+body main .container-produtive .section-produtive .div-produtive .p-produtive {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 529px;
+}
+body main .container-produtive .section-produtive .div-produtive .p-produtive.p-produtive-never {
+    padding-top: 25px;
+}
+body main .container-produtive .section-produtive .div-produtive .p-produtive.p-produtive-securely {
+    padding-top: 3px;
+}
+body main .container-produtive .section-produtive .img-produtive {
+    width: 542px;
+    height: 409px;
+    flex-shrink: 0;
+    margin-top: 24px;
+}
+body main .container-produtive .section-produtive .div-produtive .a-produtive {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Moderate-Cyan);
+    cursor: url(../images/pointer.svg), auto;
+    gap: 8px;
+    border-bottom: 1px solid;
+    transition: .3s ease-in-out;
+}
+body main .container-produtive .section-produtive .div-produtive .a-produtive:hover {
+    opacity: .6;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive {
+    display: flex;
+    flex-direction: column;
+    width: 356px;
+    height: 215px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 26px 34px 26px 34px;
+    margin-top: 29px;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .img-icon-ceo {
+    width: 15px;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .p-produtive-perfil-ceo {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Very-Dark-Blue);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .img-ceo-perfil {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #07043B;
+    letter-spacing: 0.55px;
+}
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: #07043B;
+    letter-spacing: 0.4px;
+}
+body main .container-get-early {
+    display: flex;
+    background-color: var(--Desaturated-Blue);
+    height: 322px;
+}
+body main .container-get-early .section-get-early {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 120px 0 80px;
+}
+body main .container-get-early .section-get-early .div-get-early-infor {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+body main .container-get-early .section-get-early .div-get-early-infor h2 {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px; 
+}
+body main .container-get-early .section-get-early .div-get-early-infor .p-get-early {
+    max-width: 533px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+body main .container-get-early .section-get-early .div-get-early-input-button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"] {
+    width: 480px;
+    height: 48px;
+    padding-left: 22px;
+    border-radius: 3px;
+    border: none;
+}
+body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"]::placeholder {
+    color: var(--Light-Gray);
+    font-family: 'Raleway', sans-serif; 
+    font-size: 12px;
+    font-weight: 400;
+}
+body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input span {
+    display: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    padding-top: 5px;
+}
+body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"]:invalid + span {
+    display: block;
+}
+body main .container-get-early .section-get-early .div-get-early-input-button button {
+    width: 200px;
+    height: 48px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    border: none;
+    background-color: var(--Bright-Blue);
+    cursor: url(../images/pointer.svg), auto;
+    border-radius: 3px;
+    color: var(--Light-Grayish-Blue);
+    transition: .3s ease-in-out;
+}
+body main .container-footer-site {
+    display: flex;
+    background-color: var(--Very-Dark-Blue);
+    height: 391px;
+}
+body main .container-footer-site .footer-site {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 262px 0 80px;
+}
+body main .container-footer-site .footer-site .div-footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+body main .container-footer-site .footer-site .div-footer-logo img.logo-footer{
+    width: 175px;
+    margin-bottom: 10px;
+}
+body main .container-footer-site .footer-site .div-footer-logo .div-phone, body main .container-footer-site .footer-site .div-footer-logo .div-email {
+    display: flex;
+    gap: 20px;
+}
+body main .container-footer-site .footer-site .div-footer-logo .div-phone img, body main .container-footer-site .footer-site .div-footer-logo .div-email img {
+    width: 20px;
+    height: 17px;
+}
+body main .container-footer-site .footer-site .div-footer-logo .div-phone h3, body main .container-footer-site .footer-site .div-footer-logo .div-email h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+body main .container-footer-site .footer-site .ul-links-blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 107px 0 0 38px;
+}
+body main .container-footer-site .footer-site .ul-links-privacy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 70px 0 0 12px;
+}
+body main .container-footer-site .footer-site .ul-links-blogs li a, body main .container-footer-site .footer-site .ul-links-privacy li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: url(../images/pointer.svg), auto;
+    color: #FFF;
+    transition: .3s ease-in-out;
+}
+body main .container-footer-site .footer-site .ul-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 7px;
+}
+body main .container-footer-site .footer-site .ul-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+    border: 1px solid #DFE4F0;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: url(../images/pointer.svg), auto;
+    color: #FFF;
+    transition: .3s ease-in-out;
+}
+body main .container-footer-site .footer-site .ul-icons li a:hover {
+    border: 1px solid #6C9BFF;
+}
+body main .container-footer-site .footer-site .ul-icons li a:hover, body main .container-footer-site .footer-site .ul-links-blogs li a:hover, body main .container-footer-site .footer-site .ul-links-privacy li a:hover {
+    color: #6C9BFF;
+}
+body footer .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+body footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}

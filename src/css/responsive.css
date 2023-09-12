@@ -1,0 +1,202 @@
+@media (max-width: 1300px) {
+    main {
+        width: 375px;
+    }
+    body main header {
+        margin: 24px 24px 0 24px;
+    }
+    body main header img {
+        width: 80px;
+        height: 24px;
+    }
+    body main header nav ul {
+        font-size: 12px;
+        gap: 25px;
+    }
+    body main .container-access {
+        background: url(../images/bg-curve-mobile.svg) no-repeat bottom;
+    }
+    body main .container-access .section-access-files {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 50px 0px 145px 0px;
+    }
+    body main .container-access .section-access-files .div-access-files {
+        align-items: center;
+        margin-top: 40px;
+    }
+    body main .container-access .section-access-files .div-access-files .h1-accesse-files {
+        width: 320px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    body main .container-access .section-access-files .div-access-files .p-accesse-files {
+        width: 296px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0px;
+        margin-top: 10px;
+    }
+    body main .container-access .section-access-files .img-access-files {
+        width: 304px;
+        height: 225px;
+    }
+    body main .container-access .section-access-files .div-access-files .div-access-files-input-button {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+    }
+    body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"], body main .container-access .section-access-files .div-access-files .div-access-files-input-button button {
+        width: 304px;
+        height: 40px;
+    }
+    body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"]::placeholder {
+        font-size: 12px;
+        letter-spacing: 0.4px;
+    }
+    body main .container-produtive .section-produtive {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 13px 0px 80px 0px;
+    }
+    body main .container-produtive .section-produtive .div-produtive {
+        align-items: center;
+        gap: 15px;
+        margin-top: 90px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .h1-produtive {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .p-produtive {
+        font-size: 14px;
+        width: 320px;
+        line-height: 21px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .p-produtive.p-produtive-never {
+        padding-top: 9px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .p-produtive.p-produtive-securely {
+        padding-top: 2px;
+    }
+    body main .container-produtive .section-produtive .img-produtive {
+        width: 320px;
+        height: 241px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .a-produtive {
+        width: 135px;
+        height: 28px;
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive {
+        width: 280px;
+        height: 169px;
+        padding: 22px 15px 26px 25px;
+        margin-top: 25px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .img-icon-ceo {
+        width: 13px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil {
+        margin-top: 10px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .p-produtive-perfil-ceo {
+        font-size: 10px;
+        line-height: 18.09px;
+        letter-spacing: 0.385px;
+        padding-top: 5px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .img-ceo-perfil {
+        width: 24px;
+        height: 24px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h5 {
+        display: flex;
+        font-size: 9px;
+        letter-spacing: 0.45px;
+    }
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h6 {
+        display: flex;
+        font-size: 6px;
+        letter-spacing: 0.3px;
+    }
+    body main .container-get-early {
+        height: 345px;
+    }
+    body main .container-get-early .section-get-early {
+        flex-direction: column;
+        justify-content: start;
+        margin: 56px 0px 0 0px;
+        gap: 23px;
+    }
+    body main .container-get-early .section-get-early .div-get-early-infor {
+        gap: 16px;
+        text-align: center;
+    }
+    body main .container-get-early .section-get-early .div-get-early-infor h2 {
+        font-size: 18px;
+        line-height: 24px; 
+    }
+    body main .container-get-early .section-get-early .div-get-early-infor .p-get-early {
+        max-width: 280px;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: normal;
+        font-style: normal;
+    }
+    body main .container-get-early .section-get-early .div-get-early-input-button {
+        gap: 10px;
+    }
+    body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"] {
+        width: 240px;
+        height: 32px;
+        padding-left: 8px;
+    }
+    body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"]::placeholder {
+        font-size: 10px;
+    }
+    body main .container-get-early .section-get-early .div-get-early-input-button button {
+        width: 240px;
+        height: 32px;
+        font-size: 10px;
+    }
+    body main .container-footer-site {
+        height: 685px;
+    }
+    body main .container-footer-site .footer-site {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin: 66px 0 0 39px;
+    }
+    body main .container-footer-site .footer-site .div-footer-logo {
+        gap: 16px;
+        margin-bottom: 17px;
+    }
+    body main .container-footer-site .footer-site .div-footer-logo img.logo-footer{
+        margin-bottom: 25px;
+    }
+    body main .container-footer-site .footer-site .ul-links-blogs{
+        gap: 16px;
+        margin: 40px 0 0 0;
+    }
+    body main .container-footer-site .footer-site .ul-links-privacy {
+        margin: 48px 0 0 0;
+    }
+    body main .container-footer-site .footer-site .ul-icons {
+        align-self: center;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: -39px;
+    }
+    body main .container-footer-site .footer-site .ul-icons li a {
+        width: 27px;
+        height: 27px;
+        font-size: 12px;
+    }
+}
