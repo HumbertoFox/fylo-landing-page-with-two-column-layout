@@ -115,12 +115,12 @@
         width: 24px;
         height: 24px;
     }
-    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h4 {
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil strong {
         display: flex;
         font-size: 9px;
         letter-spacing: 0.45px;
     }
-    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h5 {
+    body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil span {
         display: flex;
         font-size: 6px;
         letter-spacing: 0.3px;

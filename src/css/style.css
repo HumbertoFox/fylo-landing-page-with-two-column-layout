@@ -223,14 +223,14 @@ body main .container-produtive .section-produtive .div-produtive .div-ceo-produt
     flex-direction: column;
     justify-content: center;
 }
-body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h4 {
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil strong {
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     font-weight: 700;
     color: #07043B;
     letter-spacing: 0.55px;
 }
-body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h5 {
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil span {
     font-family: 'Open Sans', sans-serif;
     font-size: 8px;
     font-weight: 400;
