@@ -145,12 +145,14 @@ body main .container-produtive .section-produtive .div-produtive .h1-produtive {
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    color: #07043B;
 }
 body main .container-produtive .section-produtive .div-produtive .p-produtive {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     width: 529px;
+    color: #07043B;
 }
 body main .container-produtive .section-produtive .div-produtive .p-produtive.p-produtive-never {
     padding-top: 25px;
@@ -188,7 +190,7 @@ body main .container-produtive .section-produtive .div-produtive .div-ceo-produt
     height: 215px;
     background-color: #FFF;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.05);
     padding: 26px 34px 26px 34px;
     margin-top: 29px;
 }
@@ -220,14 +222,14 @@ body main .container-produtive .section-produtive .div-produtive .div-ceo-produt
     flex-direction: column;
     justify-content: center;
 }
-body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h5 {
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     font-weight: 700;
     color: #07043B;
     letter-spacing: 0.55px;
 }
-body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h6 {
+body main .container-produtive .section-produtive .div-produtive .div-ceo-produtive .div-ceo-produtive-perfil .div-ceo-name-perfil h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 8px;
     font-weight: 400;
