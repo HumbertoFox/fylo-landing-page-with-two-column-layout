@@ -3,11 +3,17 @@
 Esta é uma solução para o [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). 
 Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-## Layout do projeto responsivo em tela de desktop/Notebook/Tablet/Mobile.
+## Layout do projeto em tela de desktop/Notebook.
 
 <div align="center">
   <img src="https://github.com/HumbertoFox/repository/assets/126817628/225321a2-c8c7-4b09-abe4-92cbc3e34a22" width="400px"/>
+
   <img src="https://github.com/HumbertoFox/repository/assets/126817628/47c3baf0-bd03-447d-a3d3-70a2d025bca2" width="400px"/>
+</div>
+
+## Layout do projeto responsivo em tela de Notebook/Tablet/Mobile.
+
+<div align="center">
   <img src="https://github.com/HumbertoFox/repository/assets/126817628/5930e86b-72fe-4c99-9c49-614ba44f3fc6" width="400px"/>
 </div>
 
