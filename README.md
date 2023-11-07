@@ -6,15 +6,15 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 ## Layout do projeto em tela de desktop/Notebook.
 
 <div align="center">
-  <img src="https://github.com/HumbertoFox/repository/assets/126817628/225321a2-c8c7-4b09-abe4-92cbc3e34a22" width="400px"/>
+  <img src="https://github.com/HumbertoFox/repository/assets/126817628/3352c607-2e4c-4e00-bdd5-66fcbf485597" width="400px"/>
 
-  <img src="https://github.com/HumbertoFox/repository/assets/126817628/47c3baf0-bd03-447d-a3d3-70a2d025bca2" width="400px"/>
+  <img src="https://github.com/HumbertoFox/repository/assets/126817628/8b076917-379a-4b4d-8a52-134ff06c041c" width="400px"/>
 </div>
 
 ## Layout do projeto responsivo em tela de Notebook/Tablet/Mobile.
 
 <div align="center">
-  <img src="https://github.com/HumbertoFox/repository/assets/126817628/5930e86b-72fe-4c99-9c49-614ba44f3fc6" width="400px"/>
+  <img src="https://github.com/HumbertoFox/repository/assets/126817628/268bb1fd-645b-4d7d-9309-7648c7db3263" width="400px"/>
 </div>
 
 ### O que aprendi
