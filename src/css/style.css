@@ -89,6 +89,7 @@ body main .container-access .section-access-files .div-access-files .div-access-
     padding-left: 21px;
     border-radius: 3px;
     border: 1px solid var(--Very-Dark-Blue);
+    outline: none;
 }
 body main .container-access .section-access-files .div-access-files .div-access-files-input-button .div-access-files-input input[type="email"]::placeholder {
     color: var(--Light-Gray);
@@ -281,6 +282,7 @@ body main .container-get-early .section-get-early .div-get-early-input-button .d
     padding-left: 22px;
     border-radius: 3px;
     border: none;
+    outline: none;
 }
 body main .container-get-early .section-get-early .div-get-early-input-button .div-get-early-input input[type="email"]::placeholder {
     color: var(--Light-Gray);
